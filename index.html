@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Trading Journal</title>
+
+<link rel="stylesheet"
+href="css/style.css">
+
+<script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<h2>📈 Trading Journal</h2>
+
+<a href="index.html">Dashboard</a>
+
+<a href="journal.html">Journal</a>
+
+<a href="calendar.html">Calendar</a>
+
+<a href="statistics.html">Statistics</a>
+
+</div>
+
+<div class="main">
+
+<h1>Dashboard</h1>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Portfolio</h3>
+
+<h2 id="portfolio">$10000</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Profit</h3>
+
+<h2 id="profit">$0</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Win</h3>
+
+<h2 id="win">0</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Lose</h3>
+
+<h2 id="lose">0</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Win Rate</h3>
+
+<h2 id="winrate">0%</h2>
+
+</div>
+
+</div>
+
+<div class="chart">
+
+<div id="chart"></div>
+
+</div>
+
+<h2>Recent Trades</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Tanggal</th>
+
+<th>Pair</th>
+
+<th>Profit</th>
+
+<th>Result</th>
+
+</tr>
+
+</thead>
+
+<tbody id="recentTrades">
+
+</tbody>
+
+</table>
+
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>

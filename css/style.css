@@ -162,3 +162,37 @@ body{
 }
 
       }
+
+/* =====================
+   CALENDAR
+===================== */
+
+#calendar{
+    background:#1e293b;
+    padding:20px;
+    border-radius:12px;
+    margin-top:20px;
+}
+
+.fc{
+    color:white;
+}
+
+.fc-toolbar-title{
+    color:white;
+}
+
+.fc-button{
+    background:#22c55e !important;
+    border:none !important;
+}
+
+.fc-daygrid-day-number{
+    color:white;
+}
+
+.fc-event{
+    border:none;
+    padding:3px;
+    border-radius:5px;
+}
